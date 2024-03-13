@@ -16,11 +16,11 @@ public class Integer_Palindrome
 			}
 			if(temp==sum)
 			{
-			System.out.println("its a palindrome"+" "+ sum);
+			System.out.println(sum+" its a palindrome");
 			}
 			else
 			{
-			System.out.println("its not a palindrome"+" "+sum);
+			System.out.println(sum+" its not a palindrome");
 			}
 
 		}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MOCK_TEST.Unique_RemoveDuplicate_Character_In_String">
+      <class name="Number_Series_programs.Prime_Number_From_1_30">
         <methods>
-          <include name="Unique"/>
+          <include name="Prime"/>
         </methods>
-      </class> <!-- MOCK_TEST.Unique_RemoveDuplicate_Character_In_String -->
+      </class> <!-- Number_Series_programs.Prime_Number_From_1_30 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,7 +5,7 @@ import java.util.Map.Entry;
 
 import org.testng.annotations.Test;
 
-public class Assignment_Map_With_Arrays_Program 
+public class Assignment_Map_Arrays_Program 
 {
 	
 @Test
@@ -75,6 +75,7 @@ public void OnlyDuplicateNum()
 
 public void RemoveDuplicatesORUNIQUE() 
 {
+	
 	int a[]= {5,4,4,2,5,4,2,1};
 	HashMap<Integer, Integer> map=new HashMap<Integer, Integer> ();
 
@@ -82,7 +83,7 @@ public void RemoveDuplicatesORUNIQUE()
 	{
 		if(map.containsKey(a[i])) 
 		{
-			map.put(a[i],map.get(a[i])+1);
+			map.put(a[i],map.get(a[i])+1);   
 
 		}
 		else
@@ -103,3 +104,9 @@ public void RemoveDuplicatesORUNIQUE()
 	
 }
 }
+
+
+
+
+
+

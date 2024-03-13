@@ -14,7 +14,7 @@ public class String_Palindrome
 		{
 			s1=s1+s.charAt(i);
 		}
-		if(s1.equals(s))
+		if(s1.equals(s))  
 		{
 			System.out.println("String is palindrome");
 		}

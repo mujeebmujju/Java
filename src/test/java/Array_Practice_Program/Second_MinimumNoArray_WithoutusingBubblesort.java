@@ -30,7 +30,6 @@ public class Second_MinimumNoArray_WithoutusingBubblesort
 
 
 @Test
-
 public void test()
 {
 	 int[]a= {10,20,30,40};

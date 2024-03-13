@@ -20,11 +20,11 @@ public class Array_Ascending_bubbleSort
 					a[i]=a[j];
 					a[j]=temp;
 				}
-					
+			
 			}
 			System.out.print(a[i]+" ");
 		}
-		
+	 
 	}
 
 

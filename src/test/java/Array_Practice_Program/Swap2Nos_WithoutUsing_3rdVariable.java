@@ -1,6 +1,8 @@
 // SWAP 2 NOS WITHOUT USING 3RD VARIABLE
 
 package Array_Practice_Program;
+import java.util.Scanner;
+
 import org.testng.annotations.Test;
 
 public class Swap2Nos_WithoutUsing_3rdVariable
@@ -10,6 +12,27 @@ public class Swap2Nos_WithoutUsing_3rdVariable
 	{
 		int a=80;
 		int b=40;
+		System.out.println("Before swapping a="+a +"  "+ "b="+b);
+
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After swapping a="+a +"  "+ "b ="+b);
+
+
+	}
+
+
+	@Test
+	public void test()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first number");
+		int a= sc.nextInt();
+		System.out.println("Enter the second number");
+		int b= sc.nextInt();
+
+
 		System.out.println("Before swapping a="+a +"  "+ "b="+b);
 
 		a=a+b;

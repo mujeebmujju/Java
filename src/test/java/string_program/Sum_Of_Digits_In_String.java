@@ -27,7 +27,7 @@ public class Sum_Of_Digits_In_String
 	@Test
 	public void SumOfDigitsInString1()
 	{
-		String s="a2$7%65b4c6";
+		String s="a2$7%65b4c6";  
 		int sum=0;
 		for(int i=0; i<s.length(); i++)
 		{

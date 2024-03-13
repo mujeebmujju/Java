@@ -11,7 +11,7 @@ public class Count_Vowels_Consonant
 		int conscount=0;
 		String ch="";
 		String ch1="";
-		
+
 
 		for(int i=0; i<s.length();i++)
 		{
@@ -19,8 +19,8 @@ public class Count_Vowels_Consonant
 			{
 				vowcount++;
 				ch=ch+s.charAt(i);
-				
-				
+
+
 			}
 			else 
 			{
@@ -28,14 +28,14 @@ public class Count_Vowels_Consonant
 				ch1=ch1+s.charAt(i);
 			}
 		}
-		
+
 		System.out.println(vowcount+" "+ "vowels");
 		System.out.println(ch);
-		
+
 		System.out.println(conscount+" "+ "consonant");
 		System.out.println(ch1);
-			
-		
 
-		}
+
+
+	}
 }

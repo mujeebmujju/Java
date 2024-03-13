@@ -22,13 +22,13 @@ public class String_Imp
 			}
 		}
 		System.out.print(s.charAt(s.length()-1)+""+count);
-
 	}
+	
 }
 
 
 
-
+ 
 
 
 

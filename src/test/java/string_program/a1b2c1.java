@@ -1,4 +1,4 @@
-package Array_Practice_Program;
+package string_program;
 
 public class a1b2c1 
 {

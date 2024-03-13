@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Occurance_Of_EachCharacter_Using_LinkedHashSet
 {
 	@Test
-	public void t()
+	public void test()
 	{
 		String s="Tester";
 		String s1=s.toLowerCase();
@@ -29,7 +29,7 @@ public class Occurance_Of_EachCharacter_Using_LinkedHashSet
 				}
 			}
 			
-			if(count>1)
+			if(count>=1)
 			{
 			System.out.println(ch+" "+count);
 			}
