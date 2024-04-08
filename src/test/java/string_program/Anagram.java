@@ -7,7 +7,8 @@ import org.testng.annotations.Test;
 
 public class Anagram 
 {
-	public static void main(String[] args) 
+	@Test
+	public void test()
 	{
 		String s1="Care";
 		String s2="Race";
@@ -25,17 +26,12 @@ public class Anagram
 			{
 				System.out.println("not anagram");
 			}
-
-
 		}
 		else 
 		{
 			System.out.println("not anagram");
 		}
-
 	}
-	
-	
 }
 
 

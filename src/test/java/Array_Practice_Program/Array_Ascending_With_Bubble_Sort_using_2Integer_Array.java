@@ -11,7 +11,7 @@ public class Array_Ascending_With_Bubble_Sort_using_2Integer_Array
 		int[]a1= {1,3,5,10};
 		int[]a2=new int [a.length+a1.length];
 		
-		for(int i=0; i<a.length; i++)
+		for(int i=0; i<a.length; i++) 
 		{
 			a2[i]=a[i];
 		}
@@ -30,8 +30,46 @@ public class Array_Ascending_With_Bubble_Sort_using_2Integer_Array
 					a2[j]=temp;
 				}
 			}
-			System.out.print(a2[i]+" ");
+		System.out.print(a2[i]+" ");
 		}
+		
 	}
 
+	
+	//approach 2
+	
+	@Test
+	public void test1()
+	{
+		int[]a= {2,8,9,7,6};
+		int[]a1= {1,3,5,10};
+		int[]a2=new int[a.length+a1.length];
+		int k=0;
+		for(int i=0; i<a2.length; i++)
+		{
+			if(i<a.length)
+			{
+				a2[i]=a[i];
+			}
+			else
+			{
+				a2[i]=a1[k];
+				k++;
+			}
+		}
+		for(int i=0; i<a2.length; i++)
+		{
+			for(int j=i+1; j<a2.length; j++)
+			{
+				if(a2[i]>a2[j])
+				{
+					int temp=a2[i];
+					a2[i]=a2[j];
+					a2[j]=temp;
+				}
+			}
+		System.out.print(a2[i]+" ");
+		}
+	}
 }
+

@@ -22,7 +22,7 @@ public class Longest_SubString_In_A_String
 					set.add(str.charAt(k));
 				}
 				if(str.length()==set.size())
-				{
+				{ 
 					if(temp.length()<str.length())
 					{
 						temp=str;

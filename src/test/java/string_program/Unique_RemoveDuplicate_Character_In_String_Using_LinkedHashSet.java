@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Unique_RemoveDuplicate_Character_In_String_Using_LinkedHashSet
 {
 	@Test
-	public void t()
+	public void test()
 	{
 		String s="Tester";
 		String s1=s.toLowerCase();

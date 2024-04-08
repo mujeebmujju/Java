@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Number_Series_programs.Prime_Number_From_1_30">
+      <class name="string_program.a">
         <methods>
-          <include name="Prime"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Number_Series_programs.Prime_Number_From_1_30 -->
+      </class> <!-- string_program.a -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

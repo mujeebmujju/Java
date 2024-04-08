@@ -7,7 +7,7 @@ public class Maximum_Minimum_Number_In_Array
 	@Test
 	public void Maximum()
 	{
-		int[]a= {2,5,6,8,1};
+		int[]a= {5,2,1,3,9,8,4,50,0};
 		int max=a[0];
 		int min=a[0];
 
@@ -17,7 +17,7 @@ public class Maximum_Minimum_Number_In_Array
 			{
 				max=a[i];
 			}
-			else 
+			else if(min>a[i])
 			{
 				min=a[i];
 			}

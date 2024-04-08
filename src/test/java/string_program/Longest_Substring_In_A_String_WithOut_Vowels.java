@@ -7,7 +7,7 @@ public class Longest_Substring_In_A_String_WithOut_Vowels
 	@Test
 	public void substringwithOutvowel()
 	{
-		String s ="parakasha";
+		String s ="prakasha";
 		String temp ="";
 		for(int i=0;i<s.length();i++)
 		{

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-13T15:12:49 IST" name="Default suite" finished-at="2024-03-13T15:12:49 IST" duration-ms="108">
+  <suite started-at="2024-04-07T18:03:40 IST" name="Default suite" finished-at="2024-04-07T18:03:40 IST" duration-ms="80">
     <groups>
     </groups>
-    <test started-at="2024-03-13T15:12:49 IST" name="Default test" finished-at="2024-03-13T15:12:49 IST" duration-ms="108">
-      <class name="Number_Series_programs.Factorial_Series">
-        <test-method signature="Factorial()[pri:0, instance:Number_Series_programs.Factorial_Series@351d00c0]" started-at="2024-03-13T15:12:49 IST" name="Factorial" finished-at="2024-03-13T15:12:49 IST" duration-ms="16" status="PASS">
+    <test started-at="2024-04-07T18:03:40 IST" name="Default test" finished-at="2024-04-07T18:03:40 IST" duration-ms="80">
+      <class name="Number_Series_programs.Prime_No_In_Array">
+        <test-method signature="PrimeInArray()[pri:0, instance:Number_Series_programs.Prime_No_In_Array@694abbdc]" started-at="2024-04-07T18:03:40 IST" name="PrimeInArray" finished-at="2024-04-07T18:03:40 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Factorial -->
-      </class> <!-- Number_Series_programs.Factorial_Series -->
+        </test-method> <!-- PrimeInArray -->
+      </class> <!-- Number_Series_programs.Prime_No_In_Array -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

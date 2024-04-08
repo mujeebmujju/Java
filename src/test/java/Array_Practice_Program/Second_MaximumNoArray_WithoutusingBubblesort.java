@@ -43,7 +43,7 @@ public class Second_MaximumNoArray_WithoutusingBubblesort
 				 count++;
 			 }
 		 }
-		 if(count==4 )
+		 if(count==2)
 		 {
 			 System.out.println(a[i]);
 		 }

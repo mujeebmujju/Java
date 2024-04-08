@@ -1,4 +1,4 @@
-package string_program;
+ package string_program;
 
 import org.testng.annotations.Test;
 
@@ -31,7 +31,7 @@ public class Reverse_Each_Word_In_String
 		String s="i am software engineer";
 		String[] st = s.split(" ");
 
-		for(int i=0; i<st.length; i++)
+		for(int i=0; i<st.length; i++) 
 		{
 			String str=st[i];
 

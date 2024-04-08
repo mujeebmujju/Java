@@ -25,7 +25,7 @@ public class Array_Ascending_WithOut_Bubblesort_Using_2IntegerArray
 		Arrays.sort(a2);
 		for(int i=0; i<a2.length; i++)
 		{
-			System.out.print(a2[i]+"");
+			System.out.print(a2[i]+" ");
 		}
 
 

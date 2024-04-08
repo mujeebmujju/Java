@@ -31,7 +31,7 @@ public class Combination_of_Numbers
 
 	    for (int i = 0; i < a.length  ; i++) 
 	    {
-	        for (int j = i; j < a.length; j++) 
+	        for (int j = 0; j < a.length; j++) 
 	        {
 	            if (a[i] + a[j] == sum) 
 	            {

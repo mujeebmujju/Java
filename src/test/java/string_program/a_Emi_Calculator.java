@@ -23,6 +23,7 @@ public class a_Emi_Calculator
 		{
 			act.moveToElement(web).perform();
 			List<WebElement> tooltips = driver.findElements(By.xpath("//*[name()='g' and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']/*"));
+																	  //*[contains(@class,'highcharts-halo highcharts-color-undefined')]
 			for(WebElement web1:tooltips)
 			{
 				String text=web1.getText();

@@ -1,8 +1,11 @@
 package MOCK_TEST;
 
+import org.testng.annotations.Test;
+
 public class Array_Addition1_Using_Try_Catch
 {
-	public static void main(String[] args) 
+	@Test
+	public void test()
 	{
 		int[]a= {4,5,6,2,3};
 		int[]b= {2,3,3,4};

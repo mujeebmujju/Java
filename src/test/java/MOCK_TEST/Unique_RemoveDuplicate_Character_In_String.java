@@ -10,7 +10,7 @@ public class Unique_RemoveDuplicate_Character_In_String
 		String s1="Selenium";
 		String s = s1.toLowerCase();
 		
-		
+		 
 		for(int i=0; i<s.length(); i++)
 		{
 			int count=0;

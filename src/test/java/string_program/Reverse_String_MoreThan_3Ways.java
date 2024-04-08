@@ -9,6 +9,7 @@ public class Reverse_String_MoreThan_3Ways
 	@Test
 	public void Reversestring1()
 	{
+	
 		
 		String s="Mujeeb";
 		for(int i=s.length()-1;i>=0; i--)
@@ -48,6 +49,7 @@ public class Reverse_String_MoreThan_3Ways
     
     
     @Test 
+     
     public void Reversestring4()
     {
 		
@@ -60,23 +62,8 @@ public class Reverse_String_MoreThan_3Ways
 		}
 		
         for(int i=count-1; i>=0; i--)
-        System.out.println(s[i]);
+        System.out.print(s[i]);
 	
-	}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }     
     
 }

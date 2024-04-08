@@ -10,7 +10,7 @@ public class Unique_RemoveDuplicate_Character_In_String
 		String s1="Tester";
 		String s = s1.toLowerCase();
 
-		for(int i=0; i<s.length(); i++)
+		for(int i=0; i<s.length(); i++ )
 		{
 			int count=0;
 			for(int j=0; j<s.length(); j++)
@@ -18,6 +18,8 @@ public class Unique_RemoveDuplicate_Character_In_String
 				if(s.charAt(i)==s.charAt(j))
 				{
 					if(i>j)
+						  
+						
 					{
 						break;
 					} 

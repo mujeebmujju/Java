@@ -29,7 +29,5 @@ public class FindFrequentlyRepeatedNumberInArray
 			}
 		}
 		System.out.println(value+" repeating "+max+" times");
-
 	}
-
 }

@@ -1,5 +1,7 @@
 package Array_Practice_Program;
 
+import java.util.ArrayList;
+
 import org.testng.annotations.Test;
 
 public class a 
@@ -7,25 +9,31 @@ public class a
 	@Test
 	public void test()
 	{
-		String s = "i am from testi bangalore yantra";
-		String[] s1 = s.split(" ");
-		String maxLength=s1[0];
-		for(int i=0; i<s1.length; i++)
-
+		int[]a= {1,2,3};
+		int[]b= {2,4,6,8};
+		int[]l;
+		int[]s;
+		if(a.length>b.length)
 		{
-			if(maxLength.length()<s1[i].length()) 
-			{
-				maxLength=s1[i];
-			}
+			l=a;
+			s=b;
+		}
+		else
+		{
+			l=b;
+			s=a;
 		}
 
-		for(int i=0; i<s1.length; i++)
+		for(int i=0; i<s.length; i++)
 		{
-			if(maxLength.length()==s1[i].length()) 
-			{
-				System.out.println(s1[i]+" ");
+			System.out.println(l[i]+s[i]);
+		}
+		for(int i=s.length; i<l.length; i++)
+		{
+			System.out.println(l[i]);
+		}
 
-			}
-		} 
 	}
+
 }
+

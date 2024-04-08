@@ -38,11 +38,11 @@ public class Reverse_Character_Special_Position_Same
 	public void test()
 	{
 		String s="ab@s%y%m";
-	   String s1 = s.replaceAll("[^a-z A-Z]", "");
+	   String s1 = s.replaceAll("[^a-z]", "");
 		int count=s1.length()-1;
 		for(int i=0;i<s.length();i++)
 		{
-			if(s.charAt(i)>='A'&& s.charAt(i)<='Z'|| s.charAt(i)>='a'&& s.charAt(i)<='z')
+			if(s.charAt(i)>='a'&& s.charAt(i)<='z')
 			{
 				System.out.print(s1.charAt(count--));
 			}

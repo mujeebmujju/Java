@@ -7,7 +7,7 @@ public class Longest_Palindrome_In_A_String
 	@Test
 	  public void longestPalindrome()
 	  {
-		  String s="ayamalayalamkayak"; //ayamalayalamkayak
+		  String s="nitigupta"; //ayamalayalamkayak
 		  String s1="";
 		  String s2="";
 		  int len=0;
