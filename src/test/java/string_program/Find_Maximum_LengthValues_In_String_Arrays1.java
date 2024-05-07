@@ -18,18 +18,16 @@ public class Find_Maximum_LengthValues_In_String_Arrays1
 			}
 		}
         
-        for(int i=0; i<s.length; i++)
-        {
-        	if(maxLength.length()==s[i].length())
-        	{
-        		System.out.println(s[i]+" ");
+//        for(int i=0; i<s.length; i++)
+//        {
+//        	if(maxLength.length()==s[i].length())
+//        	{
+        		System.out.println(maxLength);
 
         	}
         }
 
-	}
-
-}
+	
 		
 		
 		

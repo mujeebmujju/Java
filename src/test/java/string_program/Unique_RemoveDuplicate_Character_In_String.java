@@ -7,8 +7,8 @@ public class Unique_RemoveDuplicate_Character_In_String
 	@Test
 	public void Unique()
 	{
-		String s1="Tester";
-		String s = s1.toLowerCase();
+		String s1="I am from india";
+		 String s = s1.toLowerCase();
 
 		for(int i=0; i<s.length(); i++ )
 		{
@@ -17,9 +17,7 @@ public class Unique_RemoveDuplicate_Character_In_String
 			{
 				if(s.charAt(i)==s.charAt(j))
 				{
-					if(i>j)
-						  
-						
+					if(i>j)	
 					{
 						break;
 					} 
@@ -34,8 +32,9 @@ public class Unique_RemoveDuplicate_Character_In_String
 			if(count==1)
 			{
 				System.out.print(s.charAt(i)+"="+count+" "+"");
-
+				
 			} 
+			
 
 		}
 	}    

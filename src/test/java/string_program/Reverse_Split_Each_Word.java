@@ -9,7 +9,7 @@ public class Reverse_Split_Each_Word
 	public void test()
 	{
 		String s="I am from Bangalore";
-		String[] str = s.split(" ");
+		String[] str = s.split("  ");
 		
 		for (int i=0; i<str.length; i++)
 		{

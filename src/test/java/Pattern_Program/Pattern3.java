@@ -7,10 +7,10 @@ public class Pattern3
 	@Test
 	public void pat3()
 	{
-	int n=5;
-	for(int i=1; i<=n; i++)  
+	
+	for(int i=1; i<=5; i++)  
 	{                                              // *
-		for(int j=i; j<=n; j++)                   // * *
+		for(int j=i; j<=5; j++)                   // * *
 		{                                        // * * *
 			System.out.print(" ");              // * * * *
 		}                                      // * * * * *

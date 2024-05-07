@@ -2,12 +2,12 @@ package Array_Practice_Program;
 
 import org.testng.annotations.Test;
 
-public class Array_1st_Max_2nd_Max_2Nd_Min_2nd_Min_
+public class Array_1st_Max_2nd_Max_1st_Min_2nd_Min_
 {
 	@Test
 	public void test()
 	{
-		int a[]= {4,5,6,2,3};
+		int a[]= {8,10,4,6,5};
 		int firstMax=a[0];
 		int secondMax=a[0];
 		int firstMin=a[0];
@@ -23,22 +23,22 @@ public class Array_1st_Max_2nd_Max_2Nd_Min_2nd_Min_
 			{
 				secondMax = a[i];
 			}
-
-			if (a[i] < firstMin)
-			{
-				secondMin = firstMin;
-				firstMin = a[i];
-			}
-			else if (a[i] < secondMin && a[i] > firstMin)
-			{
-				secondMin = a[i];
-			}
+//
+//			if (a[i] < firstMin)
+//			{
+//				secondMin = firstMin;
+//				firstMin = a[i];
+//			}
+//			else if (a[i] < secondMin && a[i] > firstMin)
+//			{
+//				secondMin = a[i];
+//			}
 		}
 
 		System.out.println("First Maximum:" + firstMax);
 		System.out.println("Second Maximum:" + secondMax);
-		System.out.println("First Minimum:" + firstMin);
-		System.out.println("Second Minimum:" + secondMin);
+//		System.out.println("First Minimum:" + firstMin);
+//		System.out.println("Second Minimum:" + secondMin);
 	}
 
 

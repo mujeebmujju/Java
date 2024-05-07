@@ -54,15 +54,15 @@ public class Reverse_String_MoreThan_3Ways
     {
 		
 		String st="softwares";
-		char[]s = st.toCharArray();
+		char[]ch = st.toCharArray();
         int count=0;
-        for(char c : s)
+        for(char c : ch)
 		{
 			count++;
 		}
 		
         for(int i=count-1; i>=0; i--)
-        System.out.print(s[i]);
+        System.out.print(ch[i]);
 	
     }     
     

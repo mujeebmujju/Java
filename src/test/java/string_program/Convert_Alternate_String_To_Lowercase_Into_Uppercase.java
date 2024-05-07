@@ -77,10 +77,32 @@ public class Convert_Alternate_String_To_Lowercase_Into_Uppercase
 			}
 			else
 			{
-				System.out.print(ch
-						);				//MUJeeb
+				System.out.print(ch);				//MUJeeb
 			}
 		}
 
 	}
+	
+	
+	//Approach 2
+	@Test
+	public void test4()
+	{
+		String s="mujeeb";
+		for(int i=0; i<s.length(); i++)	
+		{
+			if(i%2==0)
+			{
+				char ch = Character.toUpperCase(s.charAt(i));
+				System.out.print(ch);
+
+			}
+			else
+			{
+				System.out.print(s.charAt(i));
+			}
+		}
+	}
+			
+ 	
 }

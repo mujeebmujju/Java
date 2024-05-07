@@ -7,7 +7,7 @@ public class Print_Only_Duplicate_Character_InString
 	@Test
 	public void Duplicate()
 	{
-		String s1="Tester";
+		String s1="aaabbbcc";
 		String s = s1.toLowerCase();
 
 		for(int i=0; i<s.length(); i++)

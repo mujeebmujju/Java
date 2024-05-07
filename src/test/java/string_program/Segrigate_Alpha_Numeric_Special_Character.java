@@ -20,7 +20,7 @@ public class Segrigate_Alpha_Numeric_Special_Character
 			}
 			else if (s.charAt(i)>='1' && s.charAt(i)<='9')
 			{
-				num=num+s.charAt( i);
+				num=num+s.charAt(i);
 				
 			}
 			else

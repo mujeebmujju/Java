@@ -8,7 +8,7 @@ public class Remove_Integer_And_Print_Character
 	public void test1()
 	{
 		String s="mu12jee3b";
-		String[] s1 = s.split("[a-z A-Z]");
+		String[] s1 = s.split("[0-9]");
 		for(int i=0; i<s1.length; i++)
 		{
 				System.out.print(s1[i]);

@@ -7,11 +7,11 @@ public class Count_Of_Character
 	@Test
 	public void test()
 	{
-		String s="JanUaRy";
+		String s="mujeeb";
 		int count=0;
 		for(int i=0; i<s.length(); i++)
 		{
-			if(s.charAt(i)>='A' && s.charAt(i)<='Y')
+			if(s.charAt(i)>='a' && s.charAt(i)<='z')
 			count++;
 		}
 		System.out.println(count);

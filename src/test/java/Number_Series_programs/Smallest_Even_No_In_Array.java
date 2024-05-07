@@ -14,14 +14,13 @@ public class Smallest_Even_No_In_Array
 		 
 		 for(int i=0; i<a.length; i++)
 		 {
-			 if(a[i]%2==0)
-			 {
+			
 				 if(temp>a[i])
 				 {
 					 temp=a[i];
 					 
 				 }
-			 }
+			 
 		 }
 		 System.out.println(temp +" "+ "is the smallest Even No");
 

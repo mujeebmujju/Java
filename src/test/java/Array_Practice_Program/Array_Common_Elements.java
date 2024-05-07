@@ -1,7 +1,5 @@
 package Array_Practice_Program;
 
-
-
 public class Array_Common_Elements 
 {
 	public static void main(String[]args)
@@ -19,13 +17,14 @@ public class Array_Common_Elements
 	    boolean flag = false;
 		for(int i = 0; i<a.length; i++)
 		{
-			for(int j = 0; j<a1.length; j++)
+		for(int j = 0; j<a1.length; j++)
 			{
 				if(a[i]==a1[j])
 				{
 					flag = true;
 				}
-				else {
+				else 
+				{
 					flag = false;
 				}
 			}

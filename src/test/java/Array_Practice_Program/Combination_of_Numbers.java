@@ -40,7 +40,4 @@ public class Combination_of_Numbers
 	        }
 	    }
 	}
-	
-	
-
 }

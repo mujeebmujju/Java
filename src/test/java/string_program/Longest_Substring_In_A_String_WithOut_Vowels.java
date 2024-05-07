@@ -1,4 +1,4 @@
-package string_program;
+ package string_program;
 
 import org.testng.annotations.Test;
 
@@ -7,7 +7,7 @@ public class Longest_Substring_In_A_String_WithOut_Vowels
 	@Test
 	public void substringwithOutvowel()
 	{
-		String s ="prakasha";
+		String s ="mujeeb";
 		String temp ="";
 		for(int i=0;i<s.length();i++)
 		{

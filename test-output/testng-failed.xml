@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="string_program.a">
+      <class name="Pattern_Program.Pattern7">
         <methods>
-          <include name="test"/>
+          <include name="pat7"/>
         </methods>
-      </class> <!-- string_program.a -->
+      </class> <!-- Pattern_Program.Pattern7 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

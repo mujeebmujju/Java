@@ -22,10 +22,7 @@ public class Prime_Number_From_1_30
 			{
 				System.out.println(i);
 			}
-			else
-			{
-				
-			}
+			
 		}
 	}
 

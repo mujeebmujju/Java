@@ -38,12 +38,12 @@ public class Second_MaximumNoArray_WithoutusingBubblesort
 	     int count=1;
 		 for(int j=0; j<a.length; j++)
 		 {
-			 if(a[i]>a[j])
+			 if(a[i]<a[j])
 			 {
 				 count++;
 			 }
 		 }
-		 if(count==2)
+		 if(count==1)
 		 {
 			 System.out.println(a[i]);
 		 }
