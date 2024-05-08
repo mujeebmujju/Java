@@ -35,12 +35,12 @@ public class Addnum
 	public void test1()
 	{
 
-		int[]a= {1,3,4,5,6,8,2,9,7,6,5,3,1};
+		int[]a= {2,4,5,6,3,9,7,1};
 		for(int i=0; i<a.length; i++)
 		{
 			for(int j=i+1; j<a.length; j++)
 			{
-				if(a[i]+a[j]==5)
+				if(a[i]+a[j]==10)
 				{
 					System.out.println(a[i]+","+a[j]);
 				}

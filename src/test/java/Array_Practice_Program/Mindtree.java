@@ -1,6 +1,7 @@
 package Array_Practice_Program;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
 
@@ -13,19 +14,126 @@ public class Mindtree
 	@Test
 	public void test()
 	{
-		int[]a= {1,2,3,4,5,6};
-		int target=6;
+		int[]a= {2,4,5,6,3,9,7,1};
 		int sum=0;
-		for(int i=0; i<a.length; i++)
+		int target=10;
+		for(int i=0; i<a.length; i++) 
 		{
-			sum=sum+a[i];
-			System.out.print(i+" ");
-			if(sum==target)
+			for(int j=i+1; j<a.length; j++)
 			{
-				break;
+				sum=a[i]+a[j];
+				if(sum==target)
+				{
+					System.out.println(" index are "+i+" "+j);   //for index
+				}
 			}
+
 		}
 	}
+
+	@Test
+	public void test1()
+	{
+		int[]a= {2,4,5,6,3,9,7,1};
+		int sum=0;
+		int target=10;
+		for(int i=0; i<a.length; i++) 
+		{
+			for(int j=i+1; j<a.length; j++)
+			{
+				sum=a[i]+a[j];
+				if(sum==target)
+				{
+					System.out.println(" position are "+(i+1)+" "+(j+1));   //for position
+				}
+			}
+
+		}
+	}
+	@Test
+	public void test14()
+	{
+		int[]a= {2,4,5,6,3,9,7,1};
+		int sum=0;
+		int target=10;
+		for(int i=0; i<a.length; i++) 
+		{
+			for(int j=i+1; j<a.length; j++)
+			{
+				sum=a[i]+a[j];
+				if(sum==target)
+				{
+					System.out.println(a[i]+" "+a[j]);   //combination
+				}
+			}
+
+		}
+	}
+		//approach 2
+		public void test21()
+		{
+			int[]a= {2,4,5,6,3,9,7,1};
+			for(int i=0; i<a.length; i++)
+			{
+				for(int j=i+1; j<a.length; j++)
+				{
+					if(a[i]+a[j]==10)
+					{
+						System.out.println(a[i]+","+a[j]); // for combination
+					}
+				}
+			}
+		}
+		@Test
+		public void test33()
+		{
+			int[]a= {2,4,5,3,7,3,7,3,5,6};
+			LinkedHashMap<Integer, Integer> map=new LinkedHashMap<Integer, Integer>();
+			int target=10;
+			for(int i=0; i<a.length; i++)
+			{
+				for(int j=i+1; j<a.length; j++)
+				{
+					if(a[i]+a[j]==target)
+					{
+						if(!map.containsKey(a[i]) && !map.containsValue(a[i]))
+						{
+							map.put(a[i], a[j]);
+						}
+						
+					}
+					
+				}
+			}
+			System.out.println(map);
+
+		}
+		
+		
+
+	
+		// Using scanner class
+		@Test
+		public void test31()
+		{
+			int[]a= {2,4,5,6,3,9,7,1};
+			Scanner sc=new Scanner(System.in);
+			int sum=0;
+			int target=sc.nextInt();
+			for(int i=0; i<a.length; i++) 
+			{
+				for(int j=i+1; j<a.length; j++)
+				{
+					sum=a[i]+a[j];
+					if(sum==target)
+					{
+						System.out.println(" index are "+(i+1)+" "+(j+1));   
+					}
+				}
+
+			}
+		}
+	
 
 	//Sum Of Infinite Array
 
@@ -43,7 +151,7 @@ public class Mindtree
 		}
 		System.out.println(sum);
 	}
-	
+
 	//approach 2
 	@Test
 	public void test22()
@@ -159,16 +267,16 @@ public class Mindtree
 				System.out.println(m.getKey()+"="+m.getValue());
 			}
 	}
-	
+
 	//Reverse an array till particular position
-	
+
 	@Test
 	public void test11()
 	{
 		int a[]= {10,20,30,40,50,60,70};
 		int position=5;
 		int k=position;
-		
+
 		for(int i=0; i<a.length; i++)
 		{
 			if(i+1<=k)

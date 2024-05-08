@@ -8,9 +8,9 @@ public class Sum_Of_Digits_In_String
 	@Test
 	public void SumOfDigitsInString()
 	{
-		String s="a2b4c6";
+		String s="a2b24c6";
 		int sum=0;
-		for(int i=0; i<s.length(); i++)
+		for(int i=0; i<s.length();   i++)
 		{
 			if(s.charAt(i)>='0' &&  s.charAt(i)<='9')
 			{

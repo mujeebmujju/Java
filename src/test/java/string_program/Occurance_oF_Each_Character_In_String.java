@@ -24,9 +24,10 @@ public class Occurance_oF_Each_Character_In_String
 					}
 				}
 			}
-			if(count>=1)
+			if(s.charAt(i)=='e')
 			{
-				System.out.print(s.charAt(i)+"="+count);
+				System.out.print(s.charAt(i)+" "+count);
+				break;
 			}
 		}
 	}

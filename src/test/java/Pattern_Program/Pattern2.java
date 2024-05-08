@@ -14,7 +14,7 @@ public class Pattern2
 			{
 				if(i<j)
 				{
-					System.out.print(" ");        // * * * * *
+					System.out.print(" ");       // * * * * *
 					                              // * * * * 
 				}                                 // * * *
 			}                                     // * *
