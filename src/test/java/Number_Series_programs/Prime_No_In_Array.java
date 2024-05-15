@@ -16,7 +16,7 @@ public class Prime_No_In_Array
 					if(i%j==0)
 					{
 						count++;
-					}
+					} 
 				}
 			
 				if(count==2)

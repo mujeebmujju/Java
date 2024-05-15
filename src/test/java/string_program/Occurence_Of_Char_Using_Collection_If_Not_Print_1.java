@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
 public class Occurence_Of_Char_Using_Collection_If_Not_Print_1 
 {
 
-	public static void main(String[] args) 
+	@Test
+	public void test1()
 	{
 		int[] s = { 1, 2, 3, 3, 2, 4, 4, 5 };
 		int count = 0,max = 0;
@@ -28,7 +29,7 @@ public class Occurence_Of_Char_Using_Collection_If_Not_Print_1
 		{
 			if (m.getValue() > 1) 
 			{
-				if(m.getKey()>max) 
+				if(max<m.getKey()) 
 				{
 					max = m.getKey();
 				}

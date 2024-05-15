@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Pattern_Program.Pattern7">
+      <class name="string_program.Reverse_Split_Each_Word">
         <methods>
-          <include name="pat7"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Pattern_Program.Pattern7 -->
+      </class> <!-- string_program.Reverse_Split_Each_Word -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

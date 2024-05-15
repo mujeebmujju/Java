@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-08T17:42:43 IST" name="Default suite" finished-at="2024-05-08T17:42:43 IST" duration-ms="79">
+  <suite started-at="2024-05-15T13:27:28 IST" name="Default suite" finished-at="2024-05-15T13:27:30 IST" duration-ms="1995">
     <groups>
     </groups>
-    <test started-at="2024-05-08T17:42:43 IST" name="Default test" finished-at="2024-05-08T17:42:43 IST" duration-ms="79">
-      <class name="Array_Practice_Program.Mindtree">
-        <test-method signature="test33()[pri:0, instance:Array_Practice_Program.Mindtree@5158b42f]" started-at="2024-05-08T17:42:43 IST" name="test33" finished-at="2024-05-08T17:42:43 IST" duration-ms="13" status="PASS">
+    <test started-at="2024-05-15T13:27:28 IST" name="Default test" finished-at="2024-05-15T13:27:30 IST" duration-ms="1995">
+      <class name="string_program.Occurence_Of_Char_Using_Collection_If_Not_Print_1">
+        <test-method signature="test1()[pri:0, instance:string_program.Occurence_Of_Char_Using_Collection_If_Not_Print_1@2e005c4b]" started-at="2024-05-15T13:27:28 IST" name="test1" finished-at="2024-05-15T13:27:30 IST" duration-ms="1173" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test33 -->
-      </class> <!-- Array_Practice_Program.Mindtree -->
+        </test-method> <!-- test1 -->
+      </class> <!-- string_program.Occurence_Of_Char_Using_Collection_If_Not_Print_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

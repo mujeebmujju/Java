@@ -17,7 +17,7 @@ public class Missing_No_InArray_Between_1_To_9
 					if (a[j] == i) 
 					{
 
-					    count=1; 
+					    count++; 
 						break;      
 					}
 
