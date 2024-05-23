@@ -7,15 +7,15 @@ public class Pattern2
 	@Test
 	public void Pat2()
 	{
-		
+
 		for(int i=0; i<=5; i++)
 		{
 			for(int j=0; j<=5; j++)
 			{
 				if(i<j)
 				{
-					System.out.print(" ");       // * * * * *
-					                              // * * * * 
+					System.out.print(" ");        // * * * * *
+					// * * * * 
 				}                                 // * * *
 			}                                     // * *
 			System.out.println();                 // *
@@ -25,23 +25,25 @@ public class Pattern2
 
 
 
-//Approach 2
-@Test
-public void Pat22()
-{
-	int n=5;
-			
-	for(int i=1; i<=n; i++)
+	//Approach 2
+	@Test
+	public void Pat22()
 	{
-		for(int j=i; j<=n; j++)                   // * * * * *
-			{                                     // * * * *
-				System.out.print("* ");           // * * *
-                                                  // * *
-			}                                     // *
+		int n=5;
 
-		System.out.println();
+		for(int i=1; i<=n; i++)
+		{
+			for(int j=1; j<=n; j++)                   
+			{   
+				if(i+j<=n+1)
+				{							       // * * * * *
+					System.out.print("* ");        // * * * *
+				}								   // * * *
+												   // * *									   
+			}                                      // *
+			System.out.println();
+		}
 	}
-}
 }
 
 

@@ -10,7 +10,7 @@ public class Print_Repetaed_Numbers_With_Position
 	public void position1()
 	{
 
-		int[] a={10,20,30,40,10,20,60,70,60, 30,10,20,10};
+		int[] a={10,20,30,40,10,20,60,70,60,30,10,20,10};
 		boolean[] b=new boolean[a.length];
 		for(int i=0;i<a.length;i++)
 		{

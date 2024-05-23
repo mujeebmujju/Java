@@ -3,13 +3,11 @@ package string_program;
 import java.util.LinkedHashSet;
 
 import org.testng.annotations.Test;
-
 public class A_Panagram 
 {
 	@Test
 	public void test()
 	{
-
 		String str=" The Quick Brown fox Jumps Over THe Lazy Dog";
 		str=str.replaceAll(" ", "").toLowerCase();
 		boolean flag=true;
@@ -37,7 +35,7 @@ public class A_Panagram
 	{
 
 		String s=" The Quick Brown fox Jumps Over THe Lazy Dog";
-		s=s.replaceAll(" ", "").toLowerCase();
+	    s = s.replaceAll(" ", "").toLowerCase();
 		LinkedHashSet<Character> set=new LinkedHashSet<Character>();
 		for(int i=0; i<s.length(); i++)
 		{

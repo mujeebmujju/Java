@@ -118,14 +118,12 @@ public class Mindtree
 		{
 			int[]a= {2,4,5,6,3,9,7,1};
 			Scanner sc=new Scanner(System.in);
-			int sum=0;
 			int target=sc.nextInt();
 			for(int i=0; i<a.length; i++) 
 			{
 				for(int j=i+1; j<a.length; j++)
 				{
-					sum=a[i]+a[j];
-					if(sum==target)
+					if(a[i]+a[j]==target)
 					{
 						System.out.println(" index are "+(i+1)+" "+(j+1));   
 					}
@@ -141,7 +139,7 @@ public class Mindtree
 	public void test2()
 	{
 		int[]a= {1,2,3,4,5};
-		int m=10;
+		int m=105;
 		int n=a.length;
 		int sum=0;
 
