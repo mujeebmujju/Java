@@ -139,7 +139,7 @@ public class Mindtree
 	public void test2()
 	{
 		int[]a= {1,2,3,4,5};
-		int m=105;
+		int m=10;
 		int n=a.length;
 		int sum=0;
 
@@ -273,11 +273,10 @@ public class Mindtree
 	{
 		int a[]= {10,20,30,40,50,60,70};
 		int position=5;
-		int k=position;
 
 		for(int i=0; i<a.length; i++)
 		{
-			if(i+1<=k)
+			if(position>0)
 			{
 				System.out.print(a[--position]+" ");
 			}

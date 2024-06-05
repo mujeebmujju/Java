@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern13_Diamond_Using_2Loop 
+public class Pattern18_Character_Diamond_Using_2Loop 
 {
 	@Test
 	public void test ()

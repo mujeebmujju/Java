@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T16:44:16 IST" name="Default suite" finished-at="2024-05-23T16:44:16 IST" duration-ms="93">
+  <suite started-at="2024-06-05T18:14:06 IST" name="Default suite" finished-at="2024-06-05T18:14:06 IST" duration-ms="82">
     <groups>
     </groups>
-    <test started-at="2024-05-23T16:44:16 IST" name="Default test" finished-at="2024-05-23T16:44:16 IST" duration-ms="93">
-      <class name="string_program.Print_Length_Of_Each_Words">
-        <test-method signature="test()[pri:0, instance:string_program.Print_Length_Of_Each_Words@694abbdc]" started-at="2024-05-23T16:44:16 IST" name="test" finished-at="2024-05-23T16:44:16 IST" duration-ms="16" status="PASS">
+    <test started-at="2024-06-05T18:14:06 IST" name="Default test" finished-at="2024-06-05T18:14:06 IST" duration-ms="82">
+      <class name="Number_Series_programs.Print_Number_Which_Is_Divisible_5_From_1_To_100">
+        <test-method signature="test()[pri:0, instance:Number_Series_programs.Print_Number_Which_Is_Divisible_5_From_1_To_100@694abbdc]" started-at="2024-06-05T18:14:06 IST" name="test" finished-at="2024-06-05T18:14:06 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- string_program.Print_Length_Of_Each_Words -->
+      </class> <!-- Number_Series_programs.Print_Number_Which_Is_Divisible_5_From_1_To_100 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

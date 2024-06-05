@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern8 
+public class Pattern11_ 
 {
 	@Test
 	public void pat8()

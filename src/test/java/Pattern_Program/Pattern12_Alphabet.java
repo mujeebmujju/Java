@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern9 
+public class Pattern12_Alphabet 
 {
 	@Test
 	public void pat9()

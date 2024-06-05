@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern11_Pyramid_Using_2Loop 
+public class Pattern16_Character_Reverse_Pyramid_Using_2Loop 
 {
 	@Test
 	public void test()
@@ -14,7 +14,7 @@ public class Pattern11_Pyramid_Using_2Loop
 			for(int j=1;j<=2*n-1;j++)
 			{
 
-				if(i+j>=n+1 && (j-i)<=n-1)
+				if(j>=i && i+j<=2*n)
 				{
 					if(j<n)
 					{
@@ -36,3 +36,5 @@ public class Pattern11_Pyramid_Using_2Loop
 		}
 	}
 }
+
+

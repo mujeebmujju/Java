@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 import org.testng.annotations.Test;
 
-public class Pattern10 
+public class Pattern13_No_Pyramid 
 {
 	@Test
 	public void pat10()

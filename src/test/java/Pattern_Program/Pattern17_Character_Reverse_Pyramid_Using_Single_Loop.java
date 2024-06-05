@@ -1,17 +1,15 @@
 package Pattern_Program;
-
 import org.testng.annotations.Test;
 
-public class Pattern14_Diamond_Using_single_Loop 
+public class Pattern17_Character_Reverse_Pyramid_Using_Single_Loop 
 {
 	@Test
 	public void test()
 	{
 		int n=4;char ch='A';
-		for(int i=1,j=1;i<=2*n-1;)
+		for(int i=1,j=1;i<=n;)
 		{
-
-			if(i+j>=n+1 && (j-i)<=n-1 && (i-j)<=n-1 && (i+j)<=3*n-1)
+			if(j>=i && i+j<=2*n)
 			{
 				if(j<n)
 				{
@@ -28,7 +26,6 @@ public class Pattern14_Diamond_Using_single_Loop
 			}
 			if(j==2*n)
 			{
-				
 				i++;
 				j=1;
 				ch='A';
@@ -38,9 +35,7 @@ public class Pattern14_Diamond_Using_single_Loop
 			{
 				j++;
 			}
-			
 		}
 	}
 }
-
 

@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern12_Pyramid_Using_Single_Loop 
+public class Pattern15_Character_Pyramid_Using_Single_Loop 
 {
 	@Test
 	public void test1()

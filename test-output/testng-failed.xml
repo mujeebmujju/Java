@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="string_program.Print_First_Character_Into_LowerCase">
+      <class name="string_program.a">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- string_program.Print_First_Character_Into_LowerCase -->
+      </class> <!-- string_program.a -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

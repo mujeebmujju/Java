@@ -2,7 +2,7 @@ package Pattern_Program;
 
 import org.testng.annotations.Test;
 
-public class Pattern5 
+public class Pattern8_Right_angle_With_Index
 {
 	@Test
 	public void pat5()

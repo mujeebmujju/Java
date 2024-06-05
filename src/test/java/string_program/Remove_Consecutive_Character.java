@@ -22,7 +22,7 @@ public class Remove_Consecutive_Character
 				{
 					System.out.print(s.charAt(i));
 				}
-				count=1;
+				count=1; 
 			}
 		}
 		if(count==1)

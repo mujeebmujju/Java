@@ -31,7 +31,7 @@ public class Print_First_Character_Into_LowerCase
 				{
 					if(j==0)
 					{
-						System.out.print((char)(str.charAt(j)+32)+"");
+						System.out.print((char)(str.charAt(j)+32));
 					}
 					else
 					{
