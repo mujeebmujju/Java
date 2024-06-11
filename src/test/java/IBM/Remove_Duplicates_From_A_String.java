@@ -18,7 +18,7 @@ public class Remove_Duplicates_From_A_String
 			for(int j=0; j<s.length(); j++)
 			{
 				char ch=Character.toLowerCase(s.charAt(i));
-				char ch1=Character.toLowerCase(s.charAt(i));
+				char ch1=Character.toLowerCase(s.charAt(j));
 				
 				if(ch==ch1 && s.charAt(i)!=' ')
 				{
@@ -32,7 +32,7 @@ public class Remove_Duplicates_From_A_String
 					}
 				}
 			}
-			if(count>=1)
+			if(count>=1 && s.charAt(i)!=' ')
 			{
 				System.out.print(s.charAt(i));
 			}
