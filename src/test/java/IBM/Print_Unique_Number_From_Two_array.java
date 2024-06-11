@@ -1,4 +1,4 @@
-package Array_Practice_Program;
+package IBM;
 
 import java.util.Arrays;
 import java.util.TreeSet;

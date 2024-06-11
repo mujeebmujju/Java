@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="string_program.a">
+      <class name="IBM.Count_Uppercase_LowerCase">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- string_program.a -->
+      </class> <!-- IBM.Count_Uppercase_LowerCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
